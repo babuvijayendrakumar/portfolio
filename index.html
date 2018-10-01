@@ -101,7 +101,7 @@
 				<div class="row wow fadeInUp">
 				<div class="col-md-offset-2 col-md-8">
     					<h2 class="wow fadeIn" data-wow-offset="50" data-wow-delay="0.9s" style="font-family:fantasy; color:white;">BABU VIJAYENDRA KUMAR <span> <h2>Software Developer</h2></span></h2>
-    					<div class="element" style="font-size:20px;text-align:center; font-family:-webkit-pictograph; color:black;">
+    					<div class="element" style="font-size:20px;text-align:center; font-family:-webkit-pictograph; color:cornflowerblue;">
                             <div class="sub-element"><b>Hello, I'am Positive minded Person.<b></div>
                             <div class="sub-element"><b>I'm always open and curious to learn new things.<b></div>
                             <div class="sub-element"><b>Ability to do Multi Task and Work under pressure and hit Headline.<b></div>
@@ -257,7 +257,7 @@ In 1980, physicist Tim Berners-Lee, a contractor at CERN.</p>
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-    					   <img src="images/image5.PNG" class="img-responsive" alt="portfolio img 1" style="border-radius: 10%;"  >
+    					   <img src="images/image5.png" class="img-responsive" alt="portfolio img 1" style="border-radius: 10%;"  >
                                 <div class="portfolio-overlay">
                                     <h4>Project One</h4>
                                     <p>It is a computer programming language used for typesetting technical documents. LaTeX is a free software package created in 1985 by the American computer scientist</p>
@@ -267,7 +267,7 @@ In 1980, physicist Tim Berners-Lee, a contractor at CERN.</p>
     				</div>
     				<div class="col-md-3 col-sm-6 col-xs-12 wow fadeIn" data-wow-offset="50" data-wow-delay="0.6s">
                         <div class="portfolio-thumb">
-                           <img src="images/image6.PNG" class="img-responsive" alt="portfolio img 2"  style="border-radius: 10%;"  >
+                           <img src="images/image6.png" class="img-responsive" alt="portfolio img 2"  style="border-radius: 10%;"  >
                                 <div class="portfolio-overlay">
                                     <h4>Project Two</h4>
                                     <p>Scilab is a high-level, numerically oriented programming language. The language provides an interpreted programming environment.</p>
@@ -307,7 +307,7 @@ In 1980, physicist Tim Berners-Lee, a contractor at CERN.</p>
     					<h2 class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s">CONTACT <span>BABU</span></h2>
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInLeft" data-wow-offset="50" data-wow-delay="0.9s">
-    					<form action="#" method="post">
+    					<form name="myForm" class="" method="post" onsubmit="return Formvalidation()">
     						<label>NAME</label>
     						<input name="fullname" type="text" class="form-control" id="fullname">
    						  	
@@ -318,6 +318,19 @@ In 1980, physicist Tim Berners-Lee, a contractor at CERN.</p>
     						<textarea name="message" rows="4" class="form-control" id="message"></textarea>
     						
                             <input type="submit" class="form-control">
+							<Script>
+							
+							function Formvalidation(){
+								var validate = validateForm();
+							if( validate == true ){
+							alert("success");
+									}
+								else{
+								alert("not success");
+										}
+										return validate;
+								}
+							</script>
     					</form>
     				</div>
     				<div class="col-md-6 col-sm-6 col-xs-12 wow fadeInRight" data-wow-offset="50" data-wow-delay="0.6s">
@@ -326,7 +339,7 @@ In 1980, physicist Tim Berners-Lee, a contractor at CERN.</p>
     						<span>#10,GONURKOPPA(V),BALIGANAHALLI(POST),MALUR(TALUK),KOLAR-563130</span>
     						<p><i class="fa fa-phone"></i> +91-9844433270</p>
     						<p><i class="fa fa-envelope-o"></i> babuvijayendrakr@gmail.com</p>
-    						<p><i class="fa fa-map-marker"></i> <a href="maps/maps.html">  Malur-563130</a></p>
+    						<p> <i class="fa fa-map-marker"></i> <a href="maps/maps.html">Click My Location</a></p>
 							
     	</address>
     					<ul class="social-icon">
@@ -349,7 +362,7 @@ In 1980, physicist Tim Berners-Lee, a contractor at CERN.</p>
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <p class="wow bounceIn" data-wow-offset="50" data-wow-delay="0.3s" style="background-color:black;">
-                       	Copyright &copy; 2084 Company Name</p>
+                       	Copyright &copy; 2018 BABUVIJAYENDRAKUMAR</p>
                     </div>
                 </div>
             </div>
